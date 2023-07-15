@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    padding: 0 180px;
+    background-color: #FAFAFF;
+}
+.interationContainer{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.interationContainer a{
+    color: #E84855;
+    text-decoration: none;
+}
+.stage2{
+    width: 350px;
+}
+.stage2 p{
+    color: #00000098;
+}
+
+@media screen and (max-width : 1150px) {
+    .container{
+        justify-content: center;
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width : 900px) {
+    .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}

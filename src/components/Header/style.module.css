@@ -1,0 +1,22 @@
+.container{
+    padding: 20px 180px;
+    background-color: #FAFAFF;
+}
+.container h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #E84855;
+}
+@media screen and (max-width : 900px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .container h1{
+        display: none;
+    }
+}
